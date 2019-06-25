@@ -152,13 +152,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201906251700202_Student.cs" />
-    <Compile Include="Migrations\201906251700202_Student.Designer.cs">
-      <DependentUpon>201906251700202_Student.cs</DependentUpon>
+    <Compile Include="Migrations\201906251751217_forks.cs" />
+    <Compile Include="Migrations\201906251751217_forks.Designer.cs">
+      <DependentUpon>201906251751217_forks.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
-    <Compile Include="Models\Entity\Student.cs" />
+    <Compile Include="Models\Entity\Fork.cs" />
     <Compile Include="Models\IEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -217,8 +217,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201906251700202_Student.resx">
-      <DependentUpon>201906251700202_Student.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201906251751217_forks.resx">
+      <DependentUpon>201906251751217_forks.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
